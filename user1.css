@@ -1,0 +1,67 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+.header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin-top: 5rem;
+  background-color: aliceblue;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-radius: 1rem;
+  filter: drop-shadow(0.5rem 0.5rem grey);
+}
+.imgBox {
+  height: 400px;
+  width: 400px;
+  margin-left: -6rem;
+}
+.image{
+    filter: drop-shadow( 1rem 1rem grey);
+}
+.btn {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: aquamarine;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  font-weight: bold;
+  padding: 1rem;
+  margin-left: 8rem;
+  margin-right: 5rem;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  /* background-color: chocolate; */
+  color: aliceblue;
+}
+.btn:hover {
+  background-color: crimson;
+}

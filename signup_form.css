@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+h1 {
+  margin-bottom: 3rem;
+}
+.container {
+  margin: 5rem;
+  /* padding: 5rem; */
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+.formField {
+  font-size: larger;
+  font-weight: bold;
+  /* padding: 5rem; */
+  margin-left: 25rem;
+}
