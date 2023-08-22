@@ -2,7 +2,7 @@
 $servername='localhost';
 $userName="root";
 $password="";
-$database="sign_up";
+$database="signup_db";
 $conn= new mysqli($servername,$userName,$password,$database);
 if (!$conn) {
     # code...

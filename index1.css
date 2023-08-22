@@ -17,12 +17,6 @@
     justify-content: center;
     align-items: center;
   }
-  .imgBox {
-    margin-top: 5rem;
-    margin-left: -8rem;
-    height: 400px;
-    width: 400px;
-  }
   .content {
     margin-top: 10rem;
     display: block;
@@ -33,6 +27,12 @@
     /* box-shadow: 0px 3px 6px 9px rgba(0, 0, 0, 0.3); */
     filter: drop-shadow(1rem 1rem grey);
     /* align-items: center; */
+  }
+  .imgBox {
+    margin-top: 2rem;
+    margin-left: -8rem;
+    height: 400px;
+    width: 400px;
   }
   .txtArea {
     margin: 2rem;
@@ -73,11 +73,7 @@
     color: grey;
     border-radius: 1rem;
   }
-  .btn:hover {
-    color: white;
-    background-color: coral;
-    transition: 1s;
-  }
+
   .btn1:hover {
     color: white;
     background-color: coral;

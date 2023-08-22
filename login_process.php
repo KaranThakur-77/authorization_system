@@ -1,5 +1,5 @@
 <?php
-$conn=new mysqli('localhost','root','','sign_up');
+$conn=new mysqli('localhost','root','','signup_db');
 if (!$conn) {
     die("connection failed!");
 
@@ -15,7 +15,8 @@ if (!$conn) {
         header('location:admin.php');
         # code...
     } else {
-        # code...
+        # code..
+        
         header('location:user.php');
     }
     

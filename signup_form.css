@@ -4,24 +4,79 @@
 }
 body {
   background-color: bisque;
+  font-size: larger;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   margin-bottom: 3rem;
 }
-.container {
-  margin: 5rem;
-  /* padding: 5rem; */
-  padding-left: 5rem;
-  padding-right: 5rem;
-  background-color: aliceblue;
-  border-radius: 2rem;
-  font-weight: bold;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.formField {
+.content {
+  padding: 5rem ;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 2px dashed black;
+  margin-top: 5rem;
+  transform: translateX(-12rem);
+  box-shadow: 1rem 1rem gray;
+  transform: translateX(50px);
+}
+.imgBox {
+  margin-top: 5rem;
+  margin-left: -8rem;
+  height: 500px;
+  width: 400px;
+  transform: translateX(200px);
+}
+img{
+  filter: drop-shadow(1rem 1rem grey);
+}
+.txtarea {
+  margin: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 8px;
+}
+.btn {
+  margin-top: 1.5rem ;
+  font-family: "Courier New", Courier, monospace;
   font-size: larger;
   font-weight: bold;
-  /* padding: 5rem; */
-  margin-left: 25rem;
+  padding: 0.5rem;
+  display: flex;
+  transform: translateX(40px);
+  align-items: center;
+  margin-left: 9.2rem;
+  margin-right: 3.5rem;
+  cursor: pointer;
+  background-color: aquamarine;
+  color: grey;
+  border-radius: 1rem;
 }
+.btn:hover {
+  color: white;
+  background-color: coral;
+  transition: 1s;
+}
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -4rem;
+  /* margin: 1rem; */
+}
+span{
+  margin-left: 1.4rem;
+}
+
